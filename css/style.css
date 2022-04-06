@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+.fonttitle{
+	font-family: 'Inter', sans-serif;
+	font-weight: 700;
+	color: #661F77;
+}
+.fontbutton{
+	font-family: 'Inter', sans-serif;
+	font-weight: 700;
+}
+.fontmodal-title{
+	font-family: 'Inter', sans-serif;
+	font-weight: 700;
+	color: #661F77;
+}
+.fontparagraph{
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	color: #888888;
+}
+
+/*backgrounds*/
+.bg-violet01{
+	background-color: #661F77;
+}
+.bg-violet02{
+	background-color: #420E4E;
+}
+.bg-pink01{
+	background-color: #F4E0C3;
+}
+
+/*buttons*/
+.btn-primary01{
+	background-color: #CA2B64;
+	padding: 8px;
+	color: white;
+	border-radius: 8px;
+	font-weight: 700;
+}
+.btn-primary01:hover{
+	background-color: #790B32;
+	padding: 8px;
+	color: white;
+	border-radius: 8px;
+	font-weight: 700;
+}
+
+.btn-secondary01{
+	border-width: 3px;
+	border-color: #CA2B64;
+	background-color: transparent;
+	padding: 8px;
+	color: #CA2B64;
+	border-radius: 8px;
+	font-weight: 700;
+}
+.btn-secondary01:hover{
+	border-width: 3px;
+	border-color: #790B32;
+	background-color: transparent;
+	padding: 8px;
+	color: #790B32;
+	border-radius: 8px;
+	font-weight: 700;
+}
+/*animations*/
+.scale1{
+	transform: scale(1);
+	transition: transform 0.3s;
+}
+.scale1:hover{
+	transform: scale(1.08);
+	transition: transform 0.3s;
+}

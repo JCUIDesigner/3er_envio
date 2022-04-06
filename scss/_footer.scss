@@ -1,0 +1,28 @@
+//Footer/
+.footer{
+	background-color: map-get($map:$palette,$key:'pc08');
+	h5{
+		font-size: 1.2em;
+		line-height: 1.8em;
+		color: map-get($map:$palette,$key:'tc02');
+		font-weight: 700;
+	}
+	ul{
+		li{
+			a{
+				color: map-get($map:$palette,$key:'bw02');
+			font-size: 1em;
+			line-height: 1.4em;
+			font-weight: 400;
+			text-decoration: none;
+			&.hover{
+				color: map-get($map:$palette,$key:'pc02');
+				text-decoration: underline;
+				cursor: pointer;
+			}
+
+			}
+		}
+	}
+
+}
